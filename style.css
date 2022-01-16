@@ -33,13 +33,18 @@ h1{
 
 }
 .equal{
-     grid-row: 4/8;
+     grid-row: 5/8;
      grid-column: 4/5;
      background-color: royalblue;
 }
 .AC{
     background-color: orangered;
     grid-column: 2/4;
+}
+.delete{
+    grid-column: 4/5;
+     grid-row: 4/5;
+
 }
 .keys:not(.equal):not(.AC):hover{
     background-color: gray;
