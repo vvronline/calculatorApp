@@ -6,7 +6,7 @@ for (item of buttons) {
     buttonText = e.target.innerText;
     //console.log("Button text is ", buttonText);
     if (buttonText == "=" && screenValue == "") {
-      screenValue += "Press Any Keys";
+      screenValue += "Press AC Key & Countinue ";
       screen.value = screenValue;
     }
 
