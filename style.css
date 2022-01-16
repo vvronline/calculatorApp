@@ -5,7 +5,7 @@ body{
 .container{
     display: grid;
     height:100vh;
-    grid-template-columns: repeat(4,50px);
+    grid-template-columns: repeat(4,5%);
     grid-auto-rows: 7%;
     gap: 5px;
     place-content: center;
@@ -44,6 +44,7 @@ h1{
 .delete{
     grid-column: 4/5;
      grid-row: 4/5;
+     font-size: 80% !important;
 
 }
 .keys:not(.equal):not(.AC):hover{
